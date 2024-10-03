@@ -25,16 +25,21 @@
         h2 {
             color: #cc3300;
         }
-        .fruit-list {
+        .fruit-list, .sword-list {
             list-style-type: none;
             padding: 0;
         }
-        .fruit-item {
+        .fruit-item, .sword-item {
             background-color: #ffebcc;
             margin: 10px 0;
             padding: 15px;
             border-radius: 5px;
             border: 1px solid #cc9900;
+        }
+        .fruit-image, .sword-image {
+            max-width: 100px; /* Ukuran maksimum gambar */
+            margin-right: 10px; /* Spasi antara gambar dan teks */
+            vertical-align: middle; /* Vertikal align untuk gambar */
         }
         footer {
             text-align: center;
@@ -47,7 +52,8 @@
 <body>
     <header>
         <h1>Selamat Datang di Boboycraft</h1>
-        <p>Semua tentang Blox Fruit</p>
+        <h2><img src="link_gambar_yuuichiro.jpg" alt="Yuuichiro Hyakuya" style="max-width: 200px;"> </h2> <!-- Ganti dengan link gambar Yuuichiro -->
+        <p>Semua tentang Blox Fruit dan Pedang Terkenal di One Piece</p>
     </header>
 
     <main>
@@ -56,20 +62,87 @@
         
         <h2>Daftar Buah di Blox Fruit</h2>
         <ul class="fruit-list">
-            <li class="fruit-item"><strong>Gomu Gomu no Mi</strong>: Memberikan kemampuan untuk meregangkan tubuh seperti karet.</li>
-            <li class="fruit-item"><strong>Mera Mera no Mi</strong>: Memberikan kemampuan untuk mengendalikan api.</li>
-            <li class="fruit-item"><strong>Hie Hie no Mi</strong>: Memberikan kemampuan untuk mengendalikan es.</li>
-            <li class="fruit-item"><strong>Yami Yami no Mi</strong>: Memberikan kemampuan untuk mengendalikan kegelapan.</li>
-            <li class="fruit-item"><strong>Ope Ope no Mi</strong>: Memberikan kemampuan untuk mengendalikan ruang dan waktu.</li>
-            <li class="fruit-item"><strong>Suna Suna no Mi</strong>: Memberikan kemampuan untuk mengendalikan pasir.</li>
-            <li class="fruit-item"><strong>Gura Gura no Mi</strong>: Memberikan kemampuan untuk menciptakan gempa bumi.</li>
-            <li class="fruit-item"><strong>Uo Uo no Mi</strong>: Memberikan kemampuan untuk berubah menjadi naga.</li>
-            <!-- Tambahkan buah lainnya di sini -->
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_gomu_gomu.jpg" alt="Gomu Gomu no Mi"> <!-- Ganti dengan link gambar Gomu Gomu -->
+                <strong>Gomu Gomu no Mi</strong>: Memberikan kemampuan untuk meregangkan tubuh seperti karet.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_mera_mera.jpg" alt="Mera Mera no Mi"> <!-- Ganti dengan link gambar Mera Mera -->
+                <strong>Mera Mera no Mi</strong>: Memberikan kemampuan untuk mengendalikan api.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_hie_hie.jpg" alt="Hie Hie no Mi"> <!-- Ganti dengan link gambar Hie Hie -->
+                <strong>Hie Hie no Mi</strong>: Memberikan kemampuan untuk mengendalikan es.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_yami_yami.jpg" alt="Yami Yami no Mi"> <!-- Ganti dengan link gambar Yami Yami -->
+                <strong>Yami Yami no Mi</strong>: Memberikan kemampuan untuk mengendalikan kegelapan.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_ope_ope.jpg" alt="Ope Ope no Mi"> <!-- Ganti dengan link gambar Ope Ope -->
+                <strong>Ope Ope no Mi</strong>: Memberikan kemampuan untuk mengendalikan ruang dan waktu.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_suna_suna.jpg" alt="Suna Suna no Mi"> <!-- Ganti dengan link gambar Suna Suna -->
+                <strong>Suna Suna no Mi</strong>: Memberikan kemampuan untuk mengendalikan pasir.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_gura_gura.jpg" alt="Gura Gura no Mi"> <!-- Ganti dengan link gambar Gura Gura -->
+                <strong>Gura Gura no Mi</strong>: Memberikan kemampuan untuk menciptakan gempa bumi.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_uo_uo.jpg" alt="Uo Uo no Mi"> <!-- Ganti dengan link gambar Uo Uo -->
+                <strong>Uo Uo no Mi</strong>: Memberikan kemampuan untuk berubah menjadi naga.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_bombom.jpg" alt="Bombom no Mi"> <!-- Ganti dengan link gambar Bombom -->
+                <strong>Bombom no Mi</strong>: Memberikan kemampuan untuk mengendalikan ledakan.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_kamihami.jpg" alt="Kamihami no Mi"> <!-- Ganti dengan link gambar Kamihami -->
+                <strong>Kamihami no Mi</strong>: Memberikan kemampuan untuk mengendalikan kertas.
+            </li>
+            <li class="fruit-item">
+                <img class="fruit-image" src="link_gambar_mochi.jpg" alt="Mochi Mochi no Mi"> <!-- Ganti dengan link gambar Mochi -->
+                <strong>Mochi Mochi no Mi</strong>: Memberikan kemampuan untuk mengendalikan mochi.
+            </li>
+        </ul>
+
+        <h2>Daftar Pedang Terkenal di One Piece</h2>
+        <ul class="sword-list">
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_mi_ioria.jpg" alt="Mi Ioria"> <!-- Ganti dengan link gambar Mi Ioria -->
+                <strong>Mi Ioria</strong>: Pedang legendaris yang dimiliki oleh Mihawk.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_ame_no_habakiri.jpg" alt="Ame no Habakiri"> <!-- Ganti dengan link gambar Ame no Habakiri -->
+                <strong>Ame no Habakiri</strong>: Pedang legendaris yang dimiliki oleh Oden.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_enma.jpg" alt="Enma"> <!-- Ganti dengan link gambar Enma -->
+                <strong>Enma</strong>: Pedang yang sangat kuat milik Zoro.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_sandai_kitsune.jpg" alt="Sandai Kitetsu"> <!-- Ganti dengan link gambar Sandai Kitetsu -->
+                <strong>Sandai Kitetsu</strong>: Pedang kutukan yang sangat kuat.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_wado_ichimonji.jpg" alt="Wado Ichimonji"> <!-- Ganti dengan link gambar Wado Ichimonji -->
+                <strong>Wado Ichimonji</strong>: Pedang legendaris yang dimiliki oleh Zoro.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_shusui.jpg" alt="Shusui"> <!-- Ganti dengan link gambar Shusui -->
+                <strong>Shusui</strong>: Pedang yang sangat kuat milik Zoro.
+            </li>
+            <li class="sword-item">
+                <img class="sword-image" src="link_gambar_yoru.jpg" alt="Yoru"> <!-- Ganti dengan link gambar Yoru -->
+                <strong>Yoru</strong>: Pedang legendaris milik Mihawk.
+            </li>
         </ul>
     </main>
 
     <footer>
-        <p>Hubungi saya: boboycraft@example.com</p>
+        <p>Hubungi saya: sayaramadhan33@gmail.com</p>
     </footer>
 </body>
 </html>
