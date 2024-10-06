@@ -3,146 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boboycraft - Blox FRUIT</title>
+    <title>Blox Fruit Collection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #fff5e5;
+            background-color: #f0f8ff;
             color: #333;
             margin: 0;
-            padding: 20px;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        h2 {
-            color: #cc3300;
-        }
-        .fruit-list, .sword-list {
-            list-style-type: none;
             padding: 0;
         }
-        .fruit-item, .sword-item {
-            background-color: #ffebcc;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            border: 1px solid #cc9900;
+        header {
+            background-color: #2a9df4;
+            padding: 20px;
+            text-align: center;
         }
-        .fruit-image, .sword-image {
-            max-width: 100px; /* Ukuran maksimum gambar */
-            margin-right: 10px; /* Spasi antara gambar dan teks */
-            vertical-align: middle; /* Vertikal align untuk gambar */
+        h1 {
+            color: #fff;
+        }
+        .container {
+            padding: 20px;
+        }
+        .list-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+        .item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
         }
         footer {
+            background-color: #2a9df4;
+            color: white;
             text-align: center;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Selamat Datang di Boboycraft</h1>
-        <h2><img src="images (70).jpeg" alt="Yuuichiro Hyakuya" style="max-width: 200px;"> </h2> <!-- Ganti dengan link gambar Yuuichiro -->
-        <p>Semua tentang Blox Fruit dan Pedang Terkenal di One Piece</p>
-    </header>
 
-    <main>
-        <h2>Tentang Blox Fruit</h2>
-        <p>Blox Fruit adalah game petualangan yang sangat populer di Roblox. Dalam game ini, pemain bisa menjelajahi dunia, bertarung melawan musuh, dan mengumpulkan berbagai buah yang memberikan kemampuan khusus.</p>
-        
-        <h2>Daftar Buah di Blox Fruit</h2>
-        <ul class="fruit-list">
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (88).jpeg" alt="Gomu Gomu no Mi"> <!-- Ganti dengan link gambar Gomu Gomu -->
-                <strong>Gomu Gomu no Mi</strong>: Memberikan kemampuan untuk meregangkan tubuh seperti karet.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (89).jpeg" alt="Mera Mera no Mi"> <!-- Ganti dengan link gambar Mera Mera -->
-                <strong>Mera Mera no Mi</strong>: Memberikan kemampuan untuk mengendalikan api.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (90).jpeg" alt="Hie Hie no Mi"> <!-- Ganti dengan link gambar Hie Hie -->
-                <strong>Hie Hie no Mi</strong>: Memberikan kemampuan untuk mengendalikan es.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (91).jpeg" alt="Yami Yami no Mi"> <!-- Ganti dengan link gambar Yami Yami -->
-                <strong>Yami Yami no Mi</strong>: Memberikan kemampuan untuk mengendalikan kegelapan.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (92).jpeg" alt="Ope Ope no Mi"> <!-- Ganti dengan link gambar Ope Ope -->
-                <strong>Ope Ope no Mi</strong>: Memberikan kemampuan untuk mengendalikan ruang dan waktu.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (93).jpeg" alt="Suna Suna no Mi"> <!-- Ganti dengan link gambar Suna Suna -->
-                <strong>Suna Suna no Mi</strong>: Memberikan kemampuan untuk mengendalikan pasir.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="Gura_Gura_Infobox.png" alt="Gura Gura no Mi"> <!-- Ganti dengan link gambar Gura Gura -->
-                <strong>Gura Gura no Mi</strong>: Memberikan kemampuan untuk menciptakan gempa bumi.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (95).jpeg" alt="Uo Uo no Mi"> <!-- Ganti dengan link gambar Uo Uo -->
-                <strong>Uo Uo no Mi</strong>: Memberikan kemampuan untuk berubah menjadi naga.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (94).jpeg" alt="pamu pamuno Mi"> <!-- Ganti dengan link gambar Bombom -->
-                <strong>pamu pamu no Mi</strong>: Kekuatan utama buah ini adalah memungkinkan pengguna untuk menimbulkan semua benda mati yang disentuh menjadi membesar, yang kemudian pecah dan meledak dengan hebat.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (96).jpeg" alt="pasa pasa no Mi"> <!-- Ganti dengan link gambar Kamihami -->
-                <strong>pasa pasa no Mi</strong>: Memberikan kemampuan untuk mengendalikan kertas.
-            </li>
-            <li class="fruit-item">
-                <img class="fruit-image" src="images (97).jpeg" alt="Mochi Mochi no Mi"> <!-- Ganti dengan link gambar Mochi -->
-                <strong>Mochi Mochi no Mi</strong>: Memberikan kemampuan untuk mengendalikan mochi.
-            </li>
-        </ul>
+<header>
+    <h1>Blox Fruit Collection</h1>
+    <p>Kumpulan Buah dan Senjata dari Blox Fruit</p>
+</header>
 
-        <h2>Daftar Pedang Terkenal di One Piece</h2>
-        <ul class="sword-list">
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_mi_ioria.jpg" alt="Mi Ioria"> <!-- Ganti dengan link gambar Mi Ioria -->
-                <strong>Mi Ioria</strong>: Pedang legendaris yang dimiliki oleh Mihawk.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_ame_no_habakiri.jpg" alt="Ame no Habakiri"> <!-- Ganti dengan link gambar Ame no Habakiri -->
-                <strong>Ame no Habakiri</strong>: Pedang legendaris yang dimiliki oleh Oden.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_enma.jpg" alt="Enma"> <!-- Ganti dengan link gambar Enma -->
-                <strong>Enma</strong>: Pedang yang sangat kuat milik Zoro.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_sandai_kitsune.jpg" alt="Sandai Kitetsu"> <!-- Ganti dengan link gambar Sandai Kitetsu -->
-                <strong>Sandai Kitetsu</strong>: Pedang kutukan yang sangat kuat.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_wado_ichimonji.jpg" alt="Wado Ichimonji"> <!-- Ganti dengan link gambar Wado Ichimonji -->
-                <strong>Wado Ichimonji</strong>: Pedang legendaris yang dimiliki oleh Zoro.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_shusui.jpg" alt="Shusui"> <!-- Ganti dengan link gambar Shusui -->
-                <strong>Shusui</strong>: Pedang yang sangat kuat milik Zoro.
-            </li>
-            <li class="sword-item">
-                <img class="sword-image" src="link_gambar_yoru.jpg" alt="Yoru"> <!-- Ganti dengan link gambar Yoru -->
-                <strong>Yoru</strong>: Pedang legendaris milik Mihawk.
-            </li>
-        </ul>
-    </main>
+<div class="container">
+    <h2>Buah di Blox Fruit</h2>
+    <div class="list-container">
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Magma Fruit">
+            <p>Magma Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Light Fruit">
+            <p>Light Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Dragon Fruit">
+            <p>Dragon Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Phoenix Fruit">
+            <p>Phoenix Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Quake Fruit">
+            <p>Quake Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Rumble Fruit">
+            <p>Rumble Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Dark Fruit">
+            <p>Dark Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Sand Fruit">
+            <p>Sand Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Venom Fruit">
+            <p>Venom Fruit</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_BUAH" alt="Doe Fruit">
+            <p>Doe Fruit</p>
+        </div>
+    </div>
 
-    <footer>
-        <p>Hubungi saya: sayaramadhan33@gmail.com</p>
-    </footer>
+    <h2>Senjata di Blox Fruit</h2>
+    <div class="list-container">
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Saber">
+            <p>Saber</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Dark Blade">
+            <p>Dark Blade</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Shisui">
+            <p>Shisui</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Wando">
+            <p>Wando</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Bisento">
+            <p>Bisento</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Pole">
+            <p>Pole (1st Form)</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Canvander">
+            <p>Canvander</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="True Triple Katana">
+            <p>True Triple Katana</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Soul Cane">
+            <p>Soul Cane</p>
+        </div>
+        <div class="item">
+            <img src="URL_GAMBAR_SENJATA" alt="Midnight Blade">
+            <p>Midnight Blade</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tarok's Blox Fruit Collection</p>
+</footer>
+
 </body>
-</html>
+            </html>                
